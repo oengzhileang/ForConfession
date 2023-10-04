@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h2{
+    color: deeppink;
+    font-size: 3rem;
+    margin: 15px 0;
+}
+
+.btn-group{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+button{
+    position: absolute;
+    top: 750px;
+    left: 50%;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2rem;
+    color: white;
+    background-color: deeppink;
+    border-radius: 10px;
+}
+button:nth-child(1){
+    margin-left: -200px;
+}
+button:nth-child(2){
+    margin-right: -200px;
+}
